@@ -4,8 +4,8 @@ package calculadora;
 /**
  * Programa calculadora suma,resta, mult.
  * @author Jose
- * @version version 1.0
- * @since 14/02/25
+ * @version version 2.0
+ * @since 25/03/25
  */
 
 public class Calculadora {
@@ -49,6 +49,12 @@ public int multiplicar(int a, int b) {
 return a * b;
 
 }
+/**
+ * 
+ * @param a numero entero
+ * @param b numero entero
+ * @return division entre a y b
+ */
 
 public int dividir(int a, int b) {
 
